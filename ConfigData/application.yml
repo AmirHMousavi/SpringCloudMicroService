@@ -1,4 +1,29 @@
+---
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
+---
+spring:
+  profiles: subject
+words: I,You,He,She,It
+
+---
+spring:
+  profiles: verb
+words: jumped,read,did,ate,taught
+
+---
+spring:
+  profiles: article
+words: a,an,the
+
+---
+spring:
+  profiles: adjective
+words: big,fluffy,suspicious,normal,likely
+
+---
+spring:
+  profiles: noun
+words: shoe,umbrella,painting,chair,backpack,partition,groundhog 
